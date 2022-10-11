@@ -1,20 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Amatic SC', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .head{
   background-color: rgb(34, 36, 45);
@@ -68,7 +64,7 @@ img{
 }
 .card-over{
   position: absolute;
-  font-size: 0.8rem;
+  font-size: 1rem;
   left: 0;
   background-color: rgba(72, 72, 72, 0.5);
   padding: 0.5rem 1rem;
